@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+
+.container {
+    position: relative;
+   /* top: 100px;
+    left: 100px; */
+    margin: 150px;
+    background-image: url("images/bg.png");
+    background-size:cover;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   
+
+}
+
+.container:active {
+   transform: translate(50px, 20px) scale(0.5);
+    
+    /* (-25px, 50px);to get another angle.  Positive values translate an element to the right and down, 
+    while Negative values translate an element to the left and up*/
+}
+
+header,
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 48px;
+    margin-right: 10px;
+
+}
+
+h5 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header .chip {
+    width: 60px;
+}
+
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h5 .number{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+
+}
+
+h5 .name{
+    margin-top: 20px;
+}
+
+.container .card-details {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+
+
+
+
+
+
+
+
+
+
